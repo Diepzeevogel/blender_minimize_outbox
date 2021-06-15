@@ -19,7 +19,7 @@ def align_axis(axis, minimize, steps):
     bpy.ops.object.transform_apply(rotation=True)
 
 
-def my_function():
+def minimize_outbox():
 
     bpy.ops.object.origin_set(type='GEOMETRY_ORIGIN', center='MEDIAN')
     #minimize outbox
@@ -47,4 +47,4 @@ def my_function():
     bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
 
 
-my_function()
+minimize_outbox()
